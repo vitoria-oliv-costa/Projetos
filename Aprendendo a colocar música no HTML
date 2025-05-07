@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiquinha</title>
+    <style>
+        .botao-download {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #af4ca2;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+          font-size: 27px;
+        }
+        p {
+          
+            font-family: Arial, sans-serif;
+          font-size: 16px;
+        }
+    
+        .botao-download:hover {
+          background-color: #45a049;
+    
+        }
+      </style>
+</head>
+<body>
+    <h1>Olha que musiquinha boa ♥</h1>
+    <p>The 1975 - About You.</p>
+    <audio src="midia/The 1975 - About You (Official).mp3" controls></audio> <!-- para inserir musica no seu site, utilize a tag audio e o parametro controls MP3 WAV OGG, e use a tag autoplay para startar a música automaticamente-->
+    <p><a href="midia/The 1975 - About You (Official).mp3" download="The1975-AboutYou.mp3" class="botao-download">Clique aqui para baixar a música.</a></p>
+</body>
+</html>
