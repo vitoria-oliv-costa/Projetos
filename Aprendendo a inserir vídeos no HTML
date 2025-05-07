@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em hospedagem própria</title>
+    <style>
+        h1 {
+          color: rgb(65, 3, 3);
+          font-family: Arial, sans-serif;
+          font-size: 28px;
+        }
+        
+        p {
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif;
+            font-size: 19px;
+          }
+          </style>
+  </head>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    <p>Inserindo vídeos hospedados localmente. Assista Chappel Roan - Pink Pony Club.</p>
+    <video src="midias/Chappell Roan - Pink Pony Club (Official Music Video).mp4" width="700" controls></video>
+</body>
+</html>
